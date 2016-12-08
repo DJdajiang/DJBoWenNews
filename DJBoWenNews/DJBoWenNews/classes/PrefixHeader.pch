@@ -1,0 +1,62 @@
+//
+//  PrefixHeader.pch
+//  BoWenNews
+//
+//  Created by 刘文江 on 2016/12/8.
+//  Copyright © 2016年 刘文江. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MBProgressHUD.h"
+#import <AFNetworking/AFNetworking.h>
+#import <MJRefresh/MJRefresh.h>
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKUI/ShareSDK+SSUI.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+//人人SDK头文件
+#import <RennSDK/RennSDK.h>
+
+//微信SDK头文件
+#import "WXApi.h"
+
+//新浪微博SDK头文件
+#import "WeiboSDK.h"
+
+//腾讯开放平台（对应QQ和QQ空间）SDK头文件
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <FMDB/FMDB.h>
+
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight  [UIScreen mainScreen].bounds.size.height
+
+#define kURL_CYCLE    @"http://c.3g.163.com/nc/ad/headline/0-%d.html"  //轮播图
+#define kURL_NEWSLIST @"http://c.3g.163.com/nc/article/headline/T1348647853363/%ld-20.html" //新闻接口
+#define kURL_String @"http://c.3g.163.com/nc/article/list/%@/%ld-20.html"
+
+#define kReadAPI @"http://c.3g.163.com/recommend/getSubDocPic?passport=b949a6faa3469bad7e078629c196a3c3@tencent.163.com&devId=9479B6CD-C578-4931-A034-AA16A23E62AC&size=%ld&from=yuedu" //阅读链接
+
+#define kUrlReadDetails @"http://c.3g.163.com/nc/article/%@/full.html" //阅读明细接口
+
+#define kURL_Video @"http://api.budejie.com/api/api_open.php?a=list&c=video&page=0&per=%ld" //视频接口
+
+#define kURL_Comment @"http://api.budejie.com/api/api_open.php?a=dataList&c=comment&data_id=%ld&page=1&per=%ld" //评论接口
+
+#define kURL_Start @"http://c.3g.163.com/photo/api/list/0096/54GI0096.json"
+#define kURL_More  @"http://c.m.163.com/photo/api/morelist/0096/54GI0096/%@.json"
+#define kURL_ImagesSet @"http://c.3g.163.com/photo/api/set/%@/%@.json"//图片接口
+
+#define kURLHot @"http://comment.api.163.com/api/json/post/list/new/hot/%@/%@/%ld/10/10/2/2"
+#define kURLNew  @"http://comment.api.163.com/api/json/post/list/new/normal/%@/%@/desc/%ld/10/10/2/2" // 评论接口
+
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define NSLog(...)
+#define debugMethod()
+
+
+#endif /* PrefixHeader_pch */

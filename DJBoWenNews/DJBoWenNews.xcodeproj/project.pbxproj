@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28CA1BA97E778929A9597768 /* Pods_DJBoWenNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59568F8A316157E7E4A0D674 /* Pods_DJBoWenNewsUITests.framework */; };
+		7067C40746543A4C272EF429 /* Pods_DJBoWenNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DB3B1F6833FF7F106530D4 /* Pods_DJBoWenNewsTests.framework */; };
 		B0148D171DF9558600E45AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0148D161DF9558600E45AFA /* main.m */; };
 		B0148D201DF9558600E45AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0148D1E1DF9558600E45AFA /* Main.storyboard */; };
-		B0148D221DF9558600E45AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0148D211DF9558600E45AFA /* Assets.xcassets */; };
-		B0148D251DF9558600E45AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0148D231DF9558600E45AFA /* LaunchScreen.storyboard */; };
 		B0148D301DF9558600E45AFA /* DJBoWenNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0148D2F1DF9558600E45AFA /* DJBoWenNewsTests.m */; };
 		B0148D3B1DF9558600E45AFA /* DJBoWenNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0148D3A1DF9558600E45AFA /* DJBoWenNewsUITests.m */; };
 		B0148E131DF9561000E45AFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0148D4B1DF9561000E45AFA /* AppDelegate.m */; };
@@ -132,6 +132,9 @@
 		B0148E871DF9561000E45AFA /* DJVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0148E0E1DF9561000E45AFA /* DJVideoCell.m */; };
 		B0148E881DF9561000E45AFA /* DJVideoDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0148E101DF9561000E45AFA /* DJVideoDetailCell.m */; };
 		B0148E891DF9561000E45AFA /* DJVideoTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0148E121DF9561000E45AFA /* DJVideoTwoCell.m */; };
+		B0148E8B1DF956CF00E45AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0148E8A1DF956CF00E45AFA /* Assets.xcassets */; };
+		B0148E8D1DF956E600E45AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0148E8C1DF956E600E45AFA /* LaunchScreen.storyboard */; };
+		C4594C367449C4A409DEFEC4 /* Pods_DJBoWenNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68CCC72482E3B6269DF6C67 /* Pods_DJBoWenNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,11 +155,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A435C7DB6CABD2B9DD0FAD4 /* Pods-DJBoWenNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJBoWenNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJBoWenNewsTests/Pods-DJBoWenNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E8AB7B3A65052CF2B932B26 /* Pods-DJBoWenNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJBoWenNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJBoWenNews/Pods-DJBoWenNews.debug.xcconfig"; sourceTree = "<group>"; };
+		50DB3B1F6833FF7F106530D4 /* Pods_DJBoWenNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJBoWenNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59568F8A316157E7E4A0D674 /* Pods_DJBoWenNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJBoWenNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A46DFF8CB4C8D8DE04F227 /* Pods-DJBoWenNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJBoWenNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJBoWenNews/Pods-DJBoWenNews.release.xcconfig"; sourceTree = "<group>"; };
 		B0148D121DF9558600E45AFA /* DJBoWenNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJBoWenNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0148D161DF9558600E45AFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0148D1F1DF9558600E45AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B0148D211DF9558600E45AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B0148D241DF9558600E45AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0148D261DF9558600E45AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0148D2B1DF9558600E45AFA /* DJBoWenNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJBoWenNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0148D2F1DF9558600E45AFA /* DJBoWenNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJBoWenNewsTests.m; sourceTree = "<group>"; };
@@ -337,6 +343,13 @@
 		B0148E101DF9561000E45AFA /* DJVideoDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJVideoDetailCell.m; sourceTree = "<group>"; };
 		B0148E111DF9561000E45AFA /* DJVideoTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJVideoTwoCell.h; sourceTree = "<group>"; };
 		B0148E121DF9561000E45AFA /* DJVideoTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJVideoTwoCell.m; sourceTree = "<group>"; };
+		B0148E8A1DF956CF00E45AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0148E8C1DF956E600E45AFA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0148E8E1DF9570300E45AFA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BD7B195D1ED2A3E15DE34AAE /* Pods-DJBoWenNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJBoWenNewsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJBoWenNewsUITests/Pods-DJBoWenNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAD8A92D3E1E353DFD3AE6D8 /* Pods-DJBoWenNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJBoWenNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJBoWenNewsTests/Pods-DJBoWenNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A721C328038F06076E83B7 /* Pods-DJBoWenNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJBoWenNewsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJBoWenNewsUITests/Pods-DJBoWenNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E68CCC72482E3B6269DF6C67 /* Pods_DJBoWenNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DJBoWenNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +357,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4594C367449C4A409DEFEC4 /* Pods_DJBoWenNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +365,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7067C40746543A4C272EF429 /* Pods_DJBoWenNewsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,12 +373,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CA1BA97E778929A9597768 /* Pods_DJBoWenNewsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170D38C7F07231AA782A8882 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E8AB7B3A65052CF2B932B26 /* Pods-DJBoWenNews.debug.xcconfig */,
+				A0A46DFF8CB4C8D8DE04F227 /* Pods-DJBoWenNews.release.xcconfig */,
+				DAD8A92D3E1E353DFD3AE6D8 /* Pods-DJBoWenNewsTests.debug.xcconfig */,
+				2A435C7DB6CABD2B9DD0FAD4 /* Pods-DJBoWenNewsTests.release.xcconfig */,
+				BD7B195D1ED2A3E15DE34AAE /* Pods-DJBoWenNewsUITests.debug.xcconfig */,
+				E5A721C328038F06076E83B7 /* Pods-DJBoWenNewsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7576ACF9FB8B7491493C26CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E68CCC72482E3B6269DF6C67 /* Pods_DJBoWenNews.framework */,
+				50DB3B1F6833FF7F106530D4 /* Pods_DJBoWenNewsTests.framework */,
+				59568F8A316157E7E4A0D674 /* Pods_DJBoWenNewsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B0148D091DF9558500E45AFA = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +410,8 @@
 				B0148D2E1DF9558600E45AFA /* DJBoWenNewsTests */,
 				B0148D391DF9558600E45AFA /* DJBoWenNewsUITests */,
 				B0148D131DF9558600E45AFA /* Products */,
+				170D38C7F07231AA782A8882 /* Pods */,
+				7576ACF9FB8B7491493C26CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -389,8 +430,8 @@
 			children = (
 				B0148D481DF9561000E45AFA /* classes */,
 				B0148D1E1DF9558600E45AFA /* Main.storyboard */,
-				B0148D211DF9558600E45AFA /* Assets.xcassets */,
-				B0148D231DF9558600E45AFA /* LaunchScreen.storyboard */,
+				B0148E8A1DF956CF00E45AFA /* Assets.xcassets */,
+				B0148E8C1DF956E600E45AFA /* LaunchScreen.storyboard */,
 				B0148D261DF9558600E45AFA /* Info.plist */,
 				B0148D151DF9558600E45AFA /* Supporting Files */,
 			);
@@ -426,6 +467,7 @@
 		B0148D481DF9561000E45AFA /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				B0148E8E1DF9570300E45AFA /* PrefixHeader.pch */,
 				B0148D491DF9561000E45AFA /* AppDelegate */,
 				B0148D4C1DF9561000E45AFA /* General */,
 				B0148D6A1DF9561000E45AFA /* Helper */,
@@ -842,9 +884,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0148D3F1DF9558600E45AFA /* Build configuration list for PBXNativeTarget "DJBoWenNews" */;
 			buildPhases = (
+				500DA5337884F7AE6B9F4CFE /* [CP] Check Pods Manifest.lock */,
 				B0148D0E1DF9558600E45AFA /* Sources */,
 				B0148D0F1DF9558600E45AFA /* Frameworks */,
 				B0148D101DF9558600E45AFA /* Resources */,
+				5017E919A89828648BFC3516 /* [CP] Embed Pods Frameworks */,
+				232C6544DDC0C5BC80886401 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -859,9 +904,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0148D421DF9558600E45AFA /* Build configuration list for PBXNativeTarget "DJBoWenNewsTests" */;
 			buildPhases = (
+				125AA0727CD8DFEE2F30986D /* [CP] Check Pods Manifest.lock */,
 				B0148D271DF9558600E45AFA /* Sources */,
 				B0148D281DF9558600E45AFA /* Frameworks */,
 				B0148D291DF9558600E45AFA /* Resources */,
+				A551A9185BFC937BC2245C9A /* [CP] Embed Pods Frameworks */,
+				38ECD7BB8A2779C0E687BF3C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -877,9 +925,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0148D451DF9558600E45AFA /* Build configuration list for PBXNativeTarget "DJBoWenNewsUITests" */;
 			buildPhases = (
+				5D4273313A992C90FA7D51E5 /* [CP] Check Pods Manifest.lock */,
 				B0148D321DF9558600E45AFA /* Sources */,
 				B0148D331DF9558600E45AFA /* Frameworks */,
 				B0148D341DF9558600E45AFA /* Resources */,
+				A20C13E2131B20004CF2B4E4 /* [CP] Embed Pods Frameworks */,
+				3953BF023DB993425453E22B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -956,6 +1007,7 @@
 				B0148E661DF9561000E45AFA /* icon_myfriends@2x.png in Resources */,
 				B0148E561DF9561000E45AFA /* 离线@2x.png in Resources */,
 				B0148E611DF9561000E45AFA /* MyselfList.plist in Resources */,
+				B0148E8B1DF956CF00E45AFA /* Assets.xcassets in Resources */,
 				B0148E571DF9561000E45AFA /* 离线@3x.png in Resources */,
 				B0148E5D1DF9561000E45AFA /* XHNPicNewsFootBg.png in Resources */,
 				B0148E4C1DF9561000E45AFA /* debate.cell.btn.share.png in Resources */,
@@ -977,12 +1029,11 @@
 				B0148E6F1DF9561000E45AFA /* qr_toolbar_light_up_hl@2x.png in Resources */,
 				B0148E451DF9561000E45AFA /* btn.content.enjoy.png in Resources */,
 				B0148E7A1DF9561000E45AFA /* tabbar_icon_news_normal@2x.png in Resources */,
-				B0148D251DF9558600E45AFA /* LaunchScreen.storyboard in Resources */,
 				B0148E791DF9561000E45AFA /* tabbar_icon_news_highlight@2x.png in Resources */,
 				B0148E6A1DF9561000E45AFA /* logo@2x.png in Resources */,
 				B0148E441DF9561000E45AFA /* btn.content.back.png in Resources */,
-				B0148D221DF9558600E45AFA /* Assets.xcassets in Resources */,
 				B0148E6B1DF9561000E45AFA /* main_tab_discovery@2x.png in Resources */,
+				B0148E8D1DF956E600E45AFA /* LaunchScreen.storyboard in Resources */,
 				B0148E641DF9561000E45AFA /* icon_me_active@2x.png in Resources */,
 				B0148E581DF9561000E45AFA /* 评论@2x.png in Resources */,
 				B0148E471DF9561000E45AFA /* btn.list@2x.png in Resources */,
@@ -1027,6 +1078,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		125AA0727CD8DFEE2F30986D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		232C6544DDC0C5BC80886401 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJBoWenNews/Pods-DJBoWenNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38ECD7BB8A2779C0E687BF3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJBoWenNewsTests/Pods-DJBoWenNewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3953BF023DB993425453E22B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJBoWenNewsUITests/Pods-DJBoWenNewsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		500DA5337884F7AE6B9F4CFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5017E919A89828648BFC3516 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJBoWenNews/Pods-DJBoWenNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D4273313A992C90FA7D51E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A20C13E2131B20004CF2B4E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJBoWenNewsUITests/Pods-DJBoWenNewsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A551A9185BFC937BC2245C9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJBoWenNewsTests/Pods-DJBoWenNewsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0148D0E1DF9558600E45AFA /* Sources */ = {
@@ -1131,14 +1320,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B0148D231DF9558600E45AFA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0148D241DF9558600E45AFA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -1234,8 +1415,10 @@
 		};
 		B0148D401DF9558600E45AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8AB7B3A65052CF2B932B26 /* Pods-DJBoWenNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/liuwenjiang/Desktop/DJBoWenNews/DJBoWenNews/DJBoWenNews/classes/PrefixHeader.pch;
 				INFOPLIST_FILE = DJBoWenNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dajiang.DJBoWenNews;
@@ -1245,8 +1428,10 @@
 		};
 		B0148D411DF9558600E45AFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A46DFF8CB4C8D8DE04F227 /* Pods-DJBoWenNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/liuwenjiang/Desktop/DJBoWenNews/DJBoWenNews/DJBoWenNews/classes/PrefixHeader.pch;
 				INFOPLIST_FILE = DJBoWenNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dajiang.DJBoWenNews;
@@ -1256,6 +1441,7 @@
 		};
 		B0148D431DF9558600E45AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD8A92D3E1E353DFD3AE6D8 /* Pods-DJBoWenNewsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DJBoWenNewsTests/Info.plist;
@@ -1268,6 +1454,7 @@
 		};
 		B0148D441DF9558600E45AFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A435C7DB6CABD2B9DD0FAD4 /* Pods-DJBoWenNewsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DJBoWenNewsTests/Info.plist;
@@ -1280,6 +1467,7 @@
 		};
 		B0148D461DF9558600E45AFA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7B195D1ED2A3E15DE34AAE /* Pods-DJBoWenNewsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DJBoWenNewsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1291,6 +1479,7 @@
 		};
 		B0148D471DF9558600E45AFA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A721C328038F06076E83B7 /* Pods-DJBoWenNewsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = DJBoWenNewsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1319,6 +1508,7 @@
 				B0148D411DF9558600E45AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0148D421DF9558600E45AFA /* Build configuration list for PBXNativeTarget "DJBoWenNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -1327,6 +1517,7 @@
 				B0148D441DF9558600E45AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0148D451DF9558600E45AFA /* Build configuration list for PBXNativeTarget "DJBoWenNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -1335,6 +1526,7 @@
 				B0148D471DF9558600E45AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
